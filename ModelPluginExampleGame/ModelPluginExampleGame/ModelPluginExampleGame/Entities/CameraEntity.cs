@@ -58,6 +58,7 @@ namespace ModelPluginExampleGame.Entities
 
         private void SetUpCamera()
         {
+            this.CameraInstance.RelativePosition = new Vector3(0, 0, 0);
             //Y axis = Up
             this.CameraInstance.UpVector = new Vector3(0, 1, 0);
             CameraInstance.CameraCullMode = FlatRedBall.Graphics.CameraCullMode.None;
