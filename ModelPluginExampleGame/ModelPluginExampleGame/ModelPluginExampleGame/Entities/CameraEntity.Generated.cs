@@ -24,8 +24,10 @@ namespace ModelPluginExampleGame.Entities
 		static System.Collections.Generic.List<string> LoadedContentManagers = new System.Collections.Generic.List<string>();
 		
 		private FlatRedBall.Camera CameraInstance;
-		public float CameraRotationSpeed = 0.3f;
+		public float CameraRotationSpeed = 0.003f;
 		public float CameraMovementSpeed = 30f;
+		public bool RotationEnabled = true;
+		public bool MovementEnabled = true;
 		protected FlatRedBall.Graphics.Layer LayerProvidedByContainer = null;
 
         public CameraEntity()
@@ -122,8 +124,10 @@ namespace ModelPluginExampleGame.Entities
 			if (callOnContainedElements)
 			{
 			}
-			CameraRotationSpeed = 0.3f;
+			CameraRotationSpeed = 0.003f;
 			CameraMovementSpeed = 30f;
+			RotationEnabled = true;
+			MovementEnabled = true;
 		}
 		public virtual void ConvertToManuallyUpdated ()
 		{

@@ -79,7 +79,7 @@
           </Properties>
           <Name>CameraRotationSpeed</Name>
           <Type>float</Type>
-          <DefaultValue xsi:type="xsd:float">0.3</DefaultValue>
+          <DefaultValue xsi:type="xsd:float">0.003</DefaultValue>
         </CustomVariable>
         <CustomVariable>
           <Properties>
@@ -91,6 +91,28 @@
           <Name>CameraMovementSpeed</Name>
           <Type>float</Type>
           <DefaultValue xsi:type="xsd:float">30</DefaultValue>
+        </CustomVariable>
+        <CustomVariable>
+          <Properties>
+            <PropertySave>
+              <Name>Type</Name>
+              <ValueAsString>bool</ValueAsString>
+            </PropertySave>
+          </Properties>
+          <Name>RotationEnabled</Name>
+          <Type>bool</Type>
+          <DefaultValue xsi:type="xsd:boolean">true</DefaultValue>
+        </CustomVariable>
+        <CustomVariable>
+          <Properties>
+            <PropertySave>
+              <Name>Type</Name>
+              <ValueAsString>bool</ValueAsString>
+            </PropertySave>
+          </Properties>
+          <Name>MovementEnabled</Name>
+          <Type>bool</Type>
+          <DefaultValue xsi:type="xsd:boolean">true</DefaultValue>
         </CustomVariable>
       </CustomVariables>
       <Name>Entities\CameraEntity</Name>
@@ -178,6 +200,12 @@
       </NamedObjects>
       <ReferencedFiles>
         <ReferencedFileSave>
+          <Properties>
+            <PropertySave>
+              <Name>UseContentPipeline</Name>
+              <ValueAsBool>true</ValueAsBool>
+            </PropertySave>
+          </Properties>
           <Name>Entities/ModelTest/Model.fbx</Name>
           <IsSharedStatic>true</IsSharedStatic>
           <RuntimeType>Microsoft.Xna.Framework.Graphics.Model</RuntimeType>

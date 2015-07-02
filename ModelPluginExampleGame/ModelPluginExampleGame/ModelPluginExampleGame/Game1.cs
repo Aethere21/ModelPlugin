@@ -11,6 +11,7 @@ using System.Linq;
 
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using FlatRedBall.Input;
 
 namespace ModelPluginExampleGame
 {
@@ -60,12 +61,20 @@ namespace ModelPluginExampleGame
             base.Initialize();
         }
 
-
+        bool cap = true;
         protected override void Update(GameTime gameTime)
         {
             FlatRedBallServices.Update(gameTime);
 
             FlatRedBall.Screens.ScreenManager.Activity();
+
+            if (InputManager.Keyboard.KeyReleased(Keys.V))
+            {
+                cap = !cap;
+                IsFixedTimeStep = cap;
+                graphics.SynchronizeWithVerticalRetrace = cap;
+                graphics.ApplyChanges();
+            }
 
             base.Update(gameTime);
         }

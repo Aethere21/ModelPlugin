@@ -34,11 +34,11 @@ namespace ModelPluginExampleGame.Screens
 		{
 
 
-		}
+        }
 
 		void CustomActivity(bool firstTimeCalled)
 		{
-
+            FlatRedBall.Debugging.Debugger.Write("FPS: " + (1 / TimeManager.SecondDifference) + "\nPress V to toggle FPS cap.");
         }
 
 		void CustomDestroy()
