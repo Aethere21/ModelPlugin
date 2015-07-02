@@ -2,3 +2,4 @@ C:\Users\Hell\Documents\FlatRedBallProjects\ModelPlugin\ModelLib\bin\Release\Mod
 C:\Users\Hell\Documents\FlatRedBallProjects\ModelPlugin\ModelLib\bin\Release\ModelLib.pdb
 C:\Users\Hell\Documents\FlatRedBallProjects\ModelPlugin\ModelLib\obj\Release\ModelLib.dll
 C:\Users\Hell\Documents\FlatRedBallProjects\ModelPlugin\ModelLib\obj\Release\ModelLib.pdb
+C:\Users\Hell\Documents\FlatRedBallProjects\ModelPlugin\ModelLib\obj\Release\ModelLib.csprojResolveAssemblyReference.cache

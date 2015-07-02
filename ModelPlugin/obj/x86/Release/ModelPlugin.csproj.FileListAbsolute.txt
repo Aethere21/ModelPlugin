@@ -8,3 +8,4 @@ C:\Users\Hell\Documents\FlatRedBallProjects\ModelPlugin\ModelPlugin\bin\x86\Rele
 C:\Users\Hell\Documents\FlatRedBallProjects\ModelPlugin\ModelPlugin\bin\x86\Release\GlueSaveClasses.dll
 C:\Users\Hell\Documents\FlatRedBallProjects\ModelPlugin\ModelPlugin\obj\x86\Release\ModelPlugin.dll
 C:\Users\Hell\Documents\FlatRedBallProjects\ModelPlugin\ModelPlugin\obj\x86\Release\ModelPlugin.pdb
+C:\Users\Hell\Documents\FlatRedBallProjects\ModelPlugin\ModelPlugin\obj\x86\Release\ModelPlugin.csprojResolveAssemblyReference.cache

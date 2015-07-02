@@ -36,7 +36,7 @@ namespace ModelPlugin
 
         public override Version Version
         {
-            get { return new Version(0, 6); }
+            get { return new Version(0, 7); }
         }
 
         public override string FriendlyName
@@ -67,7 +67,7 @@ namespace ModelPlugin
                 HasCursorIsOn = false,
                 HasVisibleProperty = false, //Maybe make true?
                 CanIgnorePausing = false,
-                ExtraVariablesPattern = "Microsoft.Xna.Framework.Graphics.Model Model; float ScaleX; float ScaleY; float ScaleZ; float RotationX; float RotationY; " +
+                ExtraVariablesPattern = "Microsoft.Xna.Framework.Graphics.Model Model; float X; float Y; float Z; float ScaleX; float ScaleY; float ScaleZ; float RotationX; float RotationY; " +
                 "float RotationZ; float Alpha; Color BlendFactor; bool TextureEnabled; Texture2D ModelTexture; bool VertexColorEnabled; " +
                 "bool LightingEnabled; bool PreferPerPixelLighting; bool FogEnabled; float FogStart; float FogEnd; float FogColorR; float FogColorG; float FogColorB;",
             });
